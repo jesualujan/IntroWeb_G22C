@@ -1,0 +1,31 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+main {
+    /*display: flex;*/
+}
+/*Tiene un comentario*/
+.miarticulo{
+    margin: auto; /* El espaciado entre componetes y con auto mantiene un margen equidistante */
+    /*width: 25%;*/
+    text-align: center; /* Modificamos el contenido*/
+    border: 5px solid #5577FF;
+    border-radius: 1em; /* "em" es una unidad que representa el tamaño de letra por defecto del navegador
+    */
+    padding: 5em;
+    background-color: bisque;
+}
+
+@media (max-width: 400px) {
+    .miarticulo{
+        width: 100%;
+    }
+}
+
+@media (min-width: 400px) {
+    .miarticulo{
+        width: 25%;
+    }
+}

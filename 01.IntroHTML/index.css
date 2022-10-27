@@ -2,6 +2,7 @@ header {
     background-color: lightblue;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
 }
 
 article{
@@ -23,3 +24,6 @@ article{
 #articulo3{
     background-color: #00fbff;
 }
+
+
+

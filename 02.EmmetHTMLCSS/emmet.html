@@ -1,0 +1,53 @@
+<!-- html:5 -->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="boxmodel.css">
+        <script src="https://kit.fontawesome.com/4feec9d559.js" crossorigin="anonymous"></script>
+        <title>Tutrial Emmet</title>
+    </head>
+    <body>
+        <!-- head -->
+        <!-- head>h1{Mi Título Principal} -->
+        <head>
+            <h1>Mi Título Principal</h1>
+            <!-- nav>button[class="botoncito" onclick="alert('Hola $')"]*5 -->
+            <nav>
+                <button class="botoncito" onclick='alert("Hola 1");'>Mi botón 1</button>
+                <button class="botoncito" onclick="alert('Hola 2');">Mi botón 2</button>
+                <button class="botoncito" onclick="alert('Hola 3');">Mi botón 3</button>
+                <button class="botoncito" onclick="alert('Hola 4');">Mi botón 4</button>
+                <button class="botoncito" onclick="alert('Hola 5');">Mi botón 5</button>
+            </nav>
+        </head>
+        <!-- main+footer -->
+        
+        <main>
+            
+            <!-- (article>h2{Capítulo $})*5 -->
+            <article class="miarticulo" id="">
+                <h2>Capítulo 1</h2>
+            </article>
+            <article class="miarticulo">
+                <h2>Capítulo 2</h2>
+            </article>
+            <article class="miarticulo">
+                <h2>Capítulo 3</h2>
+            </article>
+            <article class="miarticulo">
+                <h2>Capítulo 4</h2>
+            </article>
+            <article id="miarticulo">
+                <h2>Capítulo 5</h2>
+                
+            </article>
+            <img src="imagenes/html-vs-html5.png">
+            <a href="https://twitter.com/dave_ayam"><i class="fa-brands fa-twitter"></i></a>
+        </main>
+        <footer></footer>
+        
+    </body>
+</html>

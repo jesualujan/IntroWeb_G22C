@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background: #D1913C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+.about_me{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    border-color: black;
+    border-style: solid;
+    width: 100% auto;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 50px;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+h2 {
+    font-family: monospace;
+    font-size:30px;
+    font-weight: bolder;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+
+p{
+    margin-top: 10px;
+    font-family:'Lucida Sans';
+    font-size: 25px;
+    font-weight: bolder;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+@keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+img{
+    margin-top: 10px;
+    border-radius: 55%;
+    height: 250px;
+    width:250px;
+}
+
+.networks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+a{
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.email{
+    margin-top: 20px;
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5%;
+    transition: ease-in-out;
+    margin-bottom: 10px;
+}
+
+.email:hover{
+    background: #f46b45;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.link_red{
+    color: black; 
+}
+
+.link_red:hover{
+    text-decoration: underline;
+}
+
+.mailto{
+    font-family: monospace;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black
+}
+
+.social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}

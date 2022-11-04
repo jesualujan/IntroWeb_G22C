@@ -67,3 +67,19 @@ header{
 #info-two .container h4 p {
     flex-basis: auto; /* determina el tamaño de una caja de contenidos */
 }
+
+footer {
+    background: url(../img/Contact\ us-pana.svg) no-repeat 75%;
+    padding: 30px 30px 30px 50px;
+}
+
+
+@media screen {
+    
+}
+
+
+
+@media screen {
+    
+}

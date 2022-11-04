@@ -6,6 +6,10 @@ body {
 
 }
 
+header{
+    margin-top: 75px;
+}
+
 .header-content-left img {
     /* width: 100%;  ESTO ES PARA QUE OCUPE EL ANCHO DE MI COLUMAN*/
     width: 250px;
@@ -40,3 +44,26 @@ body {
     border-radius: 50%;
 }
 
+
+#info-one h3{
+    text-align: center;
+}
+
+#info-one h3 p {
+    margin: 0 auto;
+}
+
+#info-two {
+    background: #f1f1f1;
+    padding: 50px 0 50px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#info-two .container p {
+    text-align: justify;
+}
+
+#info-two .container h4 p {
+    flex-basis: auto; /* determina el tamaño de una caja de contenidos */
+}
